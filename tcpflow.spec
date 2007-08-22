@@ -1,6 +1,6 @@
 %define name         tcpflow
 %define version 0.21
-%define release 2mdk
+%define release %mkrel 3
 
 Summary: Network traffic recorder
 Name: %{name}
@@ -34,7 +34,6 @@ autoconf
 %configure 
 %make
 
-
 %install
 rm -Rf $RPM_BUILD_ROOT
 %makeinstall
@@ -44,7 +43,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-, root, root,755)
-
 %doc AUTHORS COPYING ChangeLog NEWS README INSTALL
 %{_bindir}/*
 %{_mandir}/man*/*
