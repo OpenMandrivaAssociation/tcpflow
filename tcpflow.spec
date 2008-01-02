@@ -9,6 +9,7 @@ Release: %{release}
 License: GPL
 Group: Networking/Other
 Source:  http://www.circlemud.org/pub/jelson/tcpflow/%{name}-%{version}.tar.bz2
+BuildRoot: %{_tmppath}/%{name}-buildroot
 URL: http://www.circlemud.org/~jelson/software/tcpflow/
 # autoconf required to rebuild the ./configure, which seems outdated.
 BuildRequires: libpcap-devel autoconf
