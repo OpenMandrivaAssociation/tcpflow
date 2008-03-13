@@ -1,6 +1,6 @@
 %define name         tcpflow
 %define version 0.21
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: Network traffic recorder
 Name: %{name}
