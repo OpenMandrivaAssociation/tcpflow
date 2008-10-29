@@ -1,6 +1,6 @@
 %define name         tcpflow
 %define version 0.21
-%define release %mkrel 7
+%define release %mkrel 8
 
 Summary: Network traffic recorder
 Name: %{name}
@@ -9,7 +9,7 @@ Release: %{release}
 License: GPL
 Group: Networking/Other
 Source:  http://www.circlemud.org/pub/jelson/tcpflow/%{name}-%{version}.tar.bz2
-BuildRoot: %{_tmppath}/%{name}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL: http://www.circlemud.org/~jelson/software/tcpflow/
 # autoconf required to rebuild the ./configure, which seems outdated.
 BuildRequires: libpcap-devel autoconf
