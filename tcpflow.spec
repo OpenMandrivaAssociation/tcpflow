@@ -26,12 +26,11 @@ each flow in a separate file for later analysis.
 %prep
 %setup -q -n %{name}-%{version}
 chmod -x COPYING
-%build
 
-# some problem with ./configure, so we must rerun autoconf
-# in order to create a new configure script.
-autoconf
-%configure 
+%build
+autoreconf -fis
+
+%configure2_5x
 %make
 
 %install
