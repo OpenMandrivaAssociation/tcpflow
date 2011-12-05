@@ -6,7 +6,7 @@ License:	GPL
 Group:		Networking/Other
 Source:		http://afflib.org/downloads/%{name}-%{version}.tar.gz
 URL:		http://afflib.org
-BuildRequires: libpcap-devel autoconf
+BuildRequires:	libpcap-devel autoconf
 
 %description
 tcpflow is a program that captures data transmitted as part of TCP 
