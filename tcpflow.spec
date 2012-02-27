@@ -1,10 +1,10 @@
 Summary:	Network traffic recorder
 Name:		tcpflow
-Version:	1.1.0
+Version:	1.1.1
 Release:	1	
 License:	GPL
 Group:		Networking/Other
-Source:		http://afflib.org/downloads/%{name}-%{version}.tar.gz
+Source0:	http://afflib.org/downloads/%{name}-%{version}.tar.gz
 URL:		http://afflib.org
 BuildRequires:	libpcap-devel autoconf
 
