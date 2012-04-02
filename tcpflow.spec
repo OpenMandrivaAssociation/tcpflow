@@ -1,6 +1,6 @@
 Summary:	Network traffic recorder
 Name:		tcpflow
-Version:	1.1.1
+Version:	1.2.3
 Release:	1	
 License:	GPL
 Group:		Networking/Other
