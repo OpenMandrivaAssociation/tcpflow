@@ -1,7 +1,7 @@
 Summary:	Network traffic recorder
 Name:		tcpflow
-Version:	1.2.9
-Release:	1	
+Version:	1.3.0
+Release:	1
 License:	GPL
 Group:		Networking/Other
 Source0:	https://github.com/downloads/simsong/tcpflow/%{name}-%{version}.tar.gz
@@ -99,4 +99,5 @@ chmod -x COPYING
 + Revision: 68890
 - rebuild
 - Import tcpflow
+
 
