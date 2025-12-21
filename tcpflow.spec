@@ -6,6 +6,10 @@ License:	GPL
 Group:		Networking/Other
 Source0:	http://www.digitalcorpora.org/downloads/tcpflow/%{name}-%{version}.tar.gz
 URL:		https://afflib.org
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libpcap-devel
 BuildRequires:	autoconf
 BuildRequires:	boost-devel
